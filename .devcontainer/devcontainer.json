@@ -1,0 +1,21 @@
+{
+    "name": "decap CMS Hugo Starter",
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bullseye",
+    "features": {
+        "ghcr.io/devcontainers/features/hugo:1": {
+            "version": "latest"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "tamasfe.even-better-toml",
+                "davidanson.vscode-markdownlint",
+                "csstools.postcss"
+            ]
+        }
+    },
+    "postCreateCommand": "npm install && npm run start",
+    "forwardPorts": [1313, 4001],
+    "remoteUser": "node"
+}
