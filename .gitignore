@@ -6,40 +6,5 @@ yarn-error.log
 .netlify/
 .hugo_build.lock
 
-# cypress/videos
-# cypress/screenshots
-
-# Node modules and dependencies
-node_modules/
-
-# Build output directories
-dist/
-public/
-
-# Hugo temporary files
-resources/_gen/
-
-# Logs and debug files
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# System files
-.DS_Store
-Thumbs.db
-
-# IDE and editor files
-.vscode/
-.idea/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-
-# Environment files (if you’re not committing them)
-.env
-.env.local
-
-# Optional: Lock files (if you want to avoid committing them)
-# package-lock.json
-# yarn.lock
+cypress/videos
+cypress/screenshots
