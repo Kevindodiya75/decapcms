@@ -1,10 +1,20 @@
+# Node modules and package manager logs
 node_modules/
-dist/
-site/data/webpack.json
-/npm-debug.log
+npm-debug.log
 yarn-error.log
-.netlify/
-.hugo_build.lock
 
+# Build directories and generated files
+dist/
+public/              # Hugo publishes here by default
+.hugo_build.lock
+hugo_stats.json     # Optional: Hugo statistics file (if generated)
+
+# Webpack output (if applicable)
+site/data/webpack.json
+
+# Netlify related files
+.netlify/
+
+# Cypress test artifacts
 cypress/videos
 cypress/screenshots
