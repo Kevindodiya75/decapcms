@@ -1,0 +1,26 @@
+    # Hugo Output Directories
+    /public/
+    /resources/_gen/
+
+    # Hugo generated files
+    .hugo_build.lock
+    hugo_stats.json
+
+    # Local configuration files (if any)
+    config.yaml
+    config.toml
+
+    # System Files
+    .DS_Store
+    Thumbs.db
+
+    # Editor and IDE files
+    *.swp
+    *.swo
+    .idea/
+    .vscode/
+    *.tmp
+node_modules
+
+# Local Netlify folder
+.netlify
