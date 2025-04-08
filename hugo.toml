@@ -6,4 +6,4 @@ theme = 'ananke'
   command = "hugo"
   publish = "public"
 [build.environment]
-  HUGO_VERSION = "0.121.1"
+  HUGO_VERSION = "0.145.0"
